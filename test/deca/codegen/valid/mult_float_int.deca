@@ -1,0 +1,14 @@
+// Description:
+//   cast d'un int en float
+//   puis les additionne
+//
+//RESULT:1.10000e+00
+
+{
+    int x = 1;
+    float f = 1.1;
+
+    // x doit être convertis en float
+    f = x * f;
+    print(f);
+}

@@ -1,0 +1,10 @@
+// Description:
+//   difference de deux int
+// 
+//RESULT:2.80000e+00
+{
+    float x = 6.8;
+    int y = 4;
+    x = x - y;
+    print(x);
+}

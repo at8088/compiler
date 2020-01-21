@@ -1,0 +1,18 @@
+// Description:
+//  comparaison >= entre un int et un float
+//
+//RESULT:ok
+
+{
+    int a = 5;
+    float b = 4.1;
+
+    if (a >= b) {
+        print("ok");
+    }
+    else  {
+      print("error");
+    }
+
+
+}

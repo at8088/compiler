@@ -1,0 +1,12 @@
+// Description:
+//  addition de deux int 
+// 
+//RESULT:3
+
+{
+    int x = 1;
+    int y = 2;
+
+    x = x + y;
+    print(x);
+}

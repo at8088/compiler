@@ -1,0 +1,21 @@
+; cos(0.5)
+
+LOAD #0.1, R2;  le parametre f est placé dans la pile à
+LOAD #0.1, R3;     l'adresse -3(LB) ?
+LOAD #0.0, R1;
+FMA #-0.001388889, R2; 1/6!*R2+R1
+LOAD #0.0, R1;
+FMA R3, R2;
+LOAD #0.041666667, R1;   1/4!
+FMA R3, R2; R2*f+R = R2*f+1/4!
+LOAD #0.0, R1;
+FMA R3, R2;
+LOAD #-0.5, R1; 1/2!
+FMA R3, R2;
+LOAD #0.0, R1;
+FMA R3, R2;
+LOAD #1.0, R1;
+FMA R3, R2;
+LOAD R2, R1
+WFLOAT
+HALT

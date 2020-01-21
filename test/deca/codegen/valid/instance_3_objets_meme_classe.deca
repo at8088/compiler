@@ -1,0 +1,12 @@
+//RESULT:ok
+
+class A{
+    int x = 4;
+    float y;
+}
+{
+    A a1 = new A();
+    A a2 = new A();
+    A a3 = new A();
+    println("ok");
+}

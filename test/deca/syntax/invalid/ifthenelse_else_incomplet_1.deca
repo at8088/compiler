@@ -1,0 +1,12 @@
+// Description:
+//    test de programme incorrect syntaxiquement
+//
+// Resultats:
+//    ligne 10 : Erreur (manque crochet fermant)
+
+{
+    if (true) {
+        
+    } else {
+
+}

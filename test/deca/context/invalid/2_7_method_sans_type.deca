@@ -1,0 +1,11 @@
+// Description:
+//    methode sans type
+//
+// Resultats:
+//    Ligne 8
+
+class A {
+   methode()  {
+
+   }
+}

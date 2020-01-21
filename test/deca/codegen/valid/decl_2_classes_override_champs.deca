@@ -1,0 +1,12 @@
+//RESULT:ok
+
+class A {
+    int x;
+    float y;
+}
+class B extends A {
+    int x = 1;
+}
+{
+    println("ok");
+}

@@ -1,0 +1,18 @@
+// Description:
+//  egalité entre deux booléens
+//
+//RESULT:ok
+
+{
+    boolean a = true;
+    boolean b = true;
+
+    if (a == b) {
+        print("ok");
+    }
+    else  {
+      print("error");
+    }
+
+
+}

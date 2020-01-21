@@ -1,0 +1,14 @@
+class A {
+    int method1(boolean b) {
+        if (b) {
+            return 0;
+        } else {
+            return 1;
+        }
+    }
+
+    void method2() {
+        int x = this.method(true);
+        int y = this.method(false);
+    }
+}

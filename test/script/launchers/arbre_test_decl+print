@@ -1,0 +1,66 @@
+`> [1, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [1, 0] Main
+      +> ListDeclVar [List with 9 elements]
+      |  []> DeclVar
+      |  ||  +> Identifier (int)
+      |  ||  +> Identifier (x)
+      |  ||  `> NoInitialization
+      |  []> DeclVar
+      |  ||  +> Identifier (float)
+      |  ||  +> Identifier (f)
+      |  ||  `> Initialization
+      |  ||     `> Float (5.0)
+      |  []> DeclVar
+      |  ||  +> Identifier (float)
+      |  ||  +> Identifier (w)
+      |  ||  `> Initialization
+      |  ||     `> Float (9999.45)
+      |  []> DeclVar
+      |  ||  +> Identifier (float)
+      |  ||  +> Identifier (g)
+      |  ||  `> NoInitialization
+      |  []> DeclVar
+      |  ||  +> Identifier (boolean)
+      |  ||  +> Identifier (b1)
+      |  ||  `> Initialization
+      |  ||     `> BooleanLiteral (true)
+      |  []> DeclVar
+      |  ||  +> Identifier (boolean)
+      |  ||  +> Identifier (b2)
+      |  ||  `> NoInitialization
+      |  []> DeclVar
+      |  ||  +> Identifier (boolean)
+      |  ||  +> Identifier (b3)
+      |  ||  `> Initialization
+      |  ||     `> BooleanLiteral (false)
+      |  []> DeclVar
+      |  ||  +> Identifier (string)
+      |  ||  +> Identifier (strs)
+      |  ||  `> Initialization
+      |  ||     `> StringLiteral ("testing")
+      |  []> DeclVar
+      |      +> Identifier (string)
+      |      +> Identifier (str2)
+      |      `> NoInitialization
+      `> ListInst [List with 5 elements]
+         []> [6, 10] Print
+         ||  `> [6, 10] ListExpr [List with 3 elements]
+         ||     []> StringLiteral ("Test print1")
+         ||     []> [6, 24] Int (54)
+         ||     []> [6, 27] StringLiteral ("test print1.1")
+         []> [7, 12] Println
+         ||  `> [7, 12] ListExpr [List with 2 elements]
+         ||     []> StringLiteral ("Test println2")
+         ||     []> [7, 28] Int (575)
+         []> [8, 11] Print
+         ||  `> [8, 11] ListExpr [List with 2 elements]
+         ||     []> Float (33.21)
+         ||     []> [8, 18] StringLiteral ("Test printx3")
+         []> [9, 12] Println
+         ||  `> [9, 12] ListExpr [List with 1 elements]
+         ||     []> StringLiteral ("Test println4")
+         []> [10, 13] Println
+             `> [10, 13] ListExpr [List with 2 elements]
+                []> StringLiteral ("Test printlnx5")
+                []> [10, 30] Float (454.0)

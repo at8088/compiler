@@ -1,0 +1,9 @@
+// On passe un objet en parametre
+// On vérifie qu'il le connait bien
+
+class A {
+    // Very smart
+    boolean equals(Object other) {
+        return true;
+    }
+}

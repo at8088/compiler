@@ -1,0 +1,8 @@
+// Description:
+//   test de 2 arguments dans print
+//
+//RESULT:salut les loulous
+
+{
+    print("salut ", "les ", "loulous");
+}

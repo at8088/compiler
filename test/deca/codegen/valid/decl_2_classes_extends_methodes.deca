@@ -1,0 +1,10 @@
+//RESULT:ok
+
+class A {
+    int methode(){}
+}
+class B extends A {}
+
+{
+    println("ok");
+}

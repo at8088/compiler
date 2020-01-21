@@ -1,0 +1,36 @@
+//RESULT:ok
+
+class aA  { int x( int a,float b, boolean c) { return 0 + a;} }
+class aB extends aA{
+      int x( int a,float b, boolean c) {
+            return 1 + a;
+       }
+}
+class aC extends aB{ int x( int a,float b, boolean c) { return 2 + a;} }
+class aD extends aC{ int x( int a,float b, boolean c) { return 3 + a;} }
+class aE extends aD{ int x( int a,float b, boolean c) { return 4 + a;} }
+class aF extends aE{ int x( int a,float b, boolean c) { return 5 + a;} }
+class aG extends aF{ int x( int a,float b, boolean c) { return 6 + a;} }
+class aH extends aG{ int x( int a,float b, boolean c) { return 7 + a;} }
+class aI extends aH{ int x( int a,float b, boolean c) { return 8 + a;} }
+class aJ extends aI{ int x( int a,float b, boolean c) { return 9 + a;} }
+class aK extends aJ{ int x( int a,float b, boolean c) { return 10 + a;} }
+class aL extends aK{ int x( int a,float b, boolean c) { return 11 + a;} }
+class aM extends aL{ int x( int a,float b, boolean c) { return 12 + a;} }
+class aN extends aM{ int x( int a,float b, boolean c) { return 13 + a;} }
+class aO extends aN{ int x( int a,float b, boolean c) { return 14 + a;} }
+class aP extends aO{ int x( int a,float b, boolean c) { return 15 + a;} }
+class aQ extends aP{ int x( int a,float b, boolean c) { return 16 + a;} }
+class aR extends aQ{ int x( int a,float b, boolean c) { return 17 + a;} }
+class aS extends aR{ int x( int a,float b, boolean c) { return 18 + a;} }
+class aT extends aS{ int x( int a,float b, boolean c) { return 19 + a;} }
+class aU extends aT{ int x( int a,float b, boolean c) { return 20 + a;} }
+class aV extends aU{ int x( int a,float b, boolean c) { return 21 + a;} }
+class aW extends aV{ int x( int a,float b, boolean c) { return 22 + a;} }
+class aX extends aW{ int x( int a,float b, boolean c) { return 23 + a;} }
+class aY extends aX{ int x( int a,float b, boolean c) { return 24 + a;} }
+class aZ extends aY{ int x( int a,float b, boolean c) { return 25 + a;} }
+
+{
+    println("ok");
+}

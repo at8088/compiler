@@ -1,0 +1,16 @@
+//RESULT:ok
+
+class A {
+    int methode(){
+        return 0;
+    }
+}
+class B extends A {
+    int methode(){
+        return 1;
+    }
+}
+
+{
+    println("ok");
+}

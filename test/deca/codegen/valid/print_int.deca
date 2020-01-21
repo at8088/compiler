@@ -1,0 +1,10 @@
+// Description:
+//   test d'argument de print
+//
+//RESULT:12
+
+{
+    int a = 12;
+    print(a);
+
+}

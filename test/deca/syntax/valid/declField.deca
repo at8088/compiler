@@ -1,0 +1,8 @@
+class Test {
+    int x;
+    float y;
+    boolean b;
+    int z = 20;
+    float w = 2.5f;
+    boolean d = true;
+}

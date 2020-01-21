@@ -1,0 +1,17 @@
+// Description
+//      lancement d'une méthode à partir d'un objet nouvellement créé
+// Resultat
+//      Affiche Hello dans la sortie standard
+//RESULT:Hello
+
+class A {
+    void printHello() {
+        print("Hello");
+    }
+}
+
+{
+    A a = new A();
+
+    a.printHello();
+}

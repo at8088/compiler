@@ -1,0 +1,7 @@
+{
+    println("print string");
+    print("print int:");
+    println(123);
+    print("float :");
+    println(45.54f);
+}

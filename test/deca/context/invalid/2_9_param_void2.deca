@@ -1,0 +1,11 @@
+// Description:
+//    parametres de  type void
+//
+// Resultats:
+//    Ligne 8
+
+class A {
+   void truc(int b, void a)  {
+
+   }
+}

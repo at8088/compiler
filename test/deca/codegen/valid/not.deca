@@ -1,0 +1,11 @@
+//RESULT:ok
+
+{
+    boolean b = true;
+
+    if (!b) {
+        print("echec");
+    } else {
+        print("ok");
+    }
+}

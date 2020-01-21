@@ -1,0 +1,9 @@
+// Description:
+//    tests de programme incorrect syntaxiquement
+//
+// Resultats:
+//    ligne 8 : Erreur, (manque type pour déclaration)
+
+{
+    x = 2;
+}

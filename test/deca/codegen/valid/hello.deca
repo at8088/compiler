@@ -1,0 +1,7 @@
+// Description:
+//   essai de prinln
+//
+//RESULT:hello
+{
+    println("hello");
+}

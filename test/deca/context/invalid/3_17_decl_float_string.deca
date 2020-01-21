@@ -1,0 +1,9 @@
+// Description:
+//    Affectation et typage
+//
+// Resultats:
+//    Ligne 11: affectation de types incompatibles
+
+{
+    float f = "projet" ;
+}

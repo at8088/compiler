@@ -1,0 +1,19 @@
+; asin(0.5)
+
+LOAD #0.5, R2;  le parametre f est placé dans la pile à
+LOAD #0.5, R3;     l'adresse -3(LB) ?
+LOAD #0.0, R1;
+FMA #0.075, R2; 1*3/(2*4*5)*R2+R1
+LOAD #0.0, R1;
+FMA R3, R2;
+LOAD #0.166666667, R1;   1/6
+FMA R3, R2; R2*f+R = R2*f+1/6
+LOAD #0.0, R1;
+FMA R3, R2;
+LOAD #1.0, R1;
+FMA R3, R2;
+LOAD #0.0, R1;
+FMA R3, R2;
+LOAD R2, R1
+WFLOAT
+HALT

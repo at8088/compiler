@@ -1,0 +1,10 @@
+// Description:
+//   test d'argument de print
+// 
+// Résultat : 
+// Affiche 1.23000e+01
+
+{
+    print(12.3);
+
+}

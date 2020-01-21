@@ -1,0 +1,19 @@
+// Description:
+//   test de la structure du if, else if, else
+//
+//RESULT:a ou b
+
+{   boolean a = true;
+    boolean b = false;
+
+    if (a && b) {
+        print("a et b");
+    }
+    else if (a || b) {
+        print("a ou b");
+    }
+    else {
+        print("false");
+    }
+
+}

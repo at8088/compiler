@@ -1,0 +1,12 @@
+// Description:
+//    main defini avant les classes
+//
+// Resultats:
+//    Ligne 11: void type invalide
+
+{
+ A aa;
+}
+class A {
+  int a;
+}

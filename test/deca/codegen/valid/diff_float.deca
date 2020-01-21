@@ -1,0 +1,12 @@
+// Description:
+//   difference de deux float
+// 
+//RESULT:2.70000e+00
+//   
+
+{
+    float x = 6.8;
+    float y = 4.1;
+    y = x - y;
+    print(y);
+}

@@ -1,0 +1,10 @@
+// Description:
+//    tests de programme incorrect lexicalement (program non temriné)
+//
+// Resultats:
+//    ligne 10 : Erreur, crochet non fermé
+//
+// Historique:
+//    cree le 01/01/2020
+
+{

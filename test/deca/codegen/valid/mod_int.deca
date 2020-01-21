@@ -1,0 +1,11 @@
+// Description:
+//   modulo de 2 int
+//
+//RESULT:1
+
+{
+    int x = 5;
+    int y = 2;
+    y = x%y;
+    print(y);
+}

@@ -1,0 +1,9 @@
+// Description:
+//    field de type void
+//
+// Resultats:
+//    Ligne 11: void type invalide
+
+class A {
+  void a;
+}

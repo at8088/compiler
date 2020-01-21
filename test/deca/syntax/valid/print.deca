@@ -1,0 +1,6 @@
+{
+    print("Hello");
+    print(2);
+    println("Hello");
+    println(2);
+}

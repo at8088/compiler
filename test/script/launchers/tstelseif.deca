@@ -1,0 +1,14 @@
+{
+    int z;
+    if(true){
+        println("jhlh");
+    }else if(false){
+        println(4555);
+        x = 4;
+    }else if(4524){
+        f = 573;
+    }else{
+       // int x;
+    }
+    
+}

@@ -1,0 +1,9 @@
+// Description:
+//    type inconnu
+//
+// Résultat :
+// Ligne 8 :  types inconnu
+
+{
+    afloat f = 2.6f;
+}

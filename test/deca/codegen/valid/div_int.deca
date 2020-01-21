@@ -1,0 +1,12 @@
+// Description:
+//  division (euclidienne) d'un int par un int 
+//
+//RESULT:6
+
+{
+    int x = 13;
+    int y = 2;
+
+    x = x / y;
+    print(x);
+}

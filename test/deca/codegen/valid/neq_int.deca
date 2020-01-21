@@ -1,0 +1,18 @@
+// Description:
+//  inegalité entre deux float
+//
+//RESULT:ok
+
+{
+    int a = 5;
+    int b = 1;
+
+    if (a != b) {
+        print("ok");
+    }
+    else  {
+      print("error");
+    }
+
+
+}

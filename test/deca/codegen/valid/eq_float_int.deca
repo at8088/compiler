@@ -1,0 +1,18 @@
+// Description:
+//  egalité entre un float et un int
+//
+//RESULT:ok
+
+{
+    float a = 1.5 - 0.5;
+    int b = 1;
+
+    if (a == b) {
+        print("ok");
+    }
+    else  {
+      print("error");
+    }
+
+
+}

@@ -1,0 +1,63 @@
+//RESULT:ok
+
+class A {
+    int aA(int a ){return 0;}
+    int aB(int a ){return 0;}
+    int aC(int a ){return 0;}
+    int aD(int a ){return 0;}
+    int aE(int a ){return 0;}
+    int aF(int a ){return 0;}
+    int aG(int a ){return 0;}
+    int aH(int a ){return 0;}
+    int aI(int a ){return 0;}
+    int aJ(int a ){return 0;}
+    int aK(int a ){return 0;}
+    int aL(int a ){return 0;}
+    int aM(int a ){return 0;}
+    int aN(int a ){return 0;}
+    int aO(int a ){return 0;}
+    int aP(int a ){return 0;}
+    int aQ(int a ){return 0;}
+    int aR(int a ){return 0;}
+    int aS(int a ){return 0;}
+    int aT(int a ){return 0;}
+    int aU(int a ){return 0;}
+    int aV(int a ){return 0;}
+    int aW(int a ){return 0;}
+    int aX(int a ){return 0;}
+    int aY(int a ){return 0;}
+    int aZ(int a ){return 0;}
+}
+
+class B extends A {
+    int aA(int a ){return 666;}
+    int aB(int a ){return 666;}
+    int aC(int a ){return 666;}
+    int aD(int a ){return 666;}
+    int aE(int a ){return 666;}
+    int aF(int a ){return 666;}
+    int aG(int a ){return 666;}
+    int aH(int a ){return 666;}
+    int aI(int a ){return 666;}
+    int aJ(int a ){return 666;}
+    int aK(int a ){return 666;}
+    int aL(int a ){return 666;}
+    int aM(int a ){return 666;}
+    int aN(int a ){return 666;}
+    int aO(int a ){return 666;}
+    int aP(int a ){return 666;}
+    int aQ(int a ){return 666;}
+    int aR(int a ){return 666;}
+    int aS(int a ){return 666;}
+    int aT(int a ){return 666;}
+    int aU(int a ){return 666;}
+    int aV(int a ){return 666;}
+    int aW(int a ){return 666;}
+    int aX(int a ){return 666;}
+    int aY(int a ){return 666;}
+    int aZ(int a ){return 666;}
+}
+
+{
+    println("ok");
+}

@@ -1,0 +1,12 @@
+// Description:
+//    Affectation et typage : type différent de void
+
+// Résultat ; on définit un type null
+
+class A {
+
+}
+
+{
+    A a = null;
+}

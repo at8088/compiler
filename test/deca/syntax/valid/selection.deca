@@ -1,0 +1,8 @@
+{
+    objet.attribut;
+    objet.methode();
+    o1.o2.o3.attribut;
+    o1.o2.o3.methode();
+    objet.methode(argument, argument2);
+    o1.o2.o3.methode(argument, argument2);
+}

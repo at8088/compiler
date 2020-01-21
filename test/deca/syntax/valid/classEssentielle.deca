@@ -1,0 +1,28 @@
+class Test {
+    int x;
+    protected float y;
+    boolean b = true;
+    protected boolean b2 = false;
+
+    void methodTest() {
+        boolean t;
+        print("coucou");
+        this.x = float;
+    }
+
+    int methodTest2(int arg1, float arg2) {
+        println(arg1, arg2);
+        this.methodTest();
+        return 1;
+    }
+}
+
+class TestFils extends Test {}
+
+{
+    Test coucou = new Test ();
+    int a1 = 3;
+    float a2 = 4;
+    coucou.methodTest2(a1, a2);
+}
+        

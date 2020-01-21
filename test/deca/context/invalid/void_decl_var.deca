@@ -1,0 +1,9 @@
+// Description:
+//   void type impossible
+//
+// Résultat :
+// Ligne 8 fausse
+
+{
+    void x = 0;
+}

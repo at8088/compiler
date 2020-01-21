@@ -1,0 +1,64 @@
+//RESULT:ok
+
+class A {
+    int aA(int a ){}
+    int aB(int a ){}
+    int aC(int a ){}
+    int aD(int a ){}
+    int aE(int a ){}
+    int aF(int a ){}
+    int aG(int a ){}
+    int aH(int a ){}
+    int aI(int a ){}
+    int aJ(int a ){}
+    int aK(int a ){}
+    int aL(int a ){}
+    int aM(int a ){}
+    int aN(int a ){}
+    int aO(int a ){}
+    int aP(int a ){}
+    int aQ(int a ){}
+    int aR(int a ){}
+    int aS(int a ){}
+    int aT(int a ){}
+    int aU(int a ){}
+    int aV(int a ){}
+    int aW(int a ){}
+    int aX(int a ){}
+    int aY(int a ){}
+    int aZ(int a ){}
+
+}
+
+class B extends A {
+    int zA(int a ){}
+    int zB(int a ){}
+    int zC(int a ){}
+    int zD(int a ){}
+    int zE(int a ){}
+    int zF(int a ){}
+    int zG(int a ){}
+    int zH(int a ){}
+    int zI(int a ){}
+    int zJ(int a ){}
+    int zK(int a ){}
+    int zL(int a ){}
+    int zM(int a ){}
+    int zN(int a ){}
+    int zO(int a ){}
+    int zP(int a ){}
+    int zQ(int a ){}
+    int zR(int a ){}
+    int zS(int a ){}
+    int zT(int a ){}
+    int zU(int a ){}
+    int zV(int a ){}
+    int zW(int a ){}
+    int zX(int a ){}
+    int zY(int a ){}
+    int zZ(int a ){}
+}
+
+{
+    println("ok");
+}

@@ -1,0 +1,10 @@
+// Description:
+//   Affectation incompatible d'un float à un int
+// 
+// Résultat : Ligne 8 : affectation incompatible ; assign_compatible = false
+
+{
+    int t1;
+    float t2 = 1.3f;
+    t1 = t2;
+}

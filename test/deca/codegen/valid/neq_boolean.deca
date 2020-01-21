@@ -1,0 +1,17 @@
+// Description:
+//  inégalité entre boolean
+//
+//RESULT:ok
+
+{
+    boolean a = true;
+    boolean b = false;
+
+    if (a != b) {
+        print("ok");
+    }
+    else  {
+      print("error");
+    }
+
+}

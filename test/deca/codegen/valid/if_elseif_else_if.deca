@@ -1,0 +1,37 @@
+// Description:
+//   test de la structure du if, else if, else
+//
+//RESULT:error   !!!!BBB
+
+{   int x = 12;
+    int y = 3;
+    int z = 4;
+
+    if (false) {
+        print("x = 3*4");
+    }
+    else if (false) {
+        print("error");
+    }
+    else if (true){
+
+        print("error   !!!!");
+        if (false) {
+            print("Cacahuete");
+        } else {
+            if (false) {
+                print("AAAA");
+            } else if (true) {
+                print("BBB");
+            } else {
+                print("CCCC");
+            }
+        }
+    }
+    else if (false){
+        print("error");
+    } else {
+        print("Champion !");
+    }
+
+}

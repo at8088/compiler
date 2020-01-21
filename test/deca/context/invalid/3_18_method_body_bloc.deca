@@ -1,0 +1,12 @@
+// Description:
+//    instruction avant declaration des variables
+//
+// Resultats:
+//    Ligne 8
+
+class A {
+   void rien(int a) {
+      a = a+1;
+      int b = 2;
+   }
+}

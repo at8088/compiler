@@ -1,0 +1,6 @@
+// Description:
+//    Affectation et typage : type différent de void
+
+{
+    float f;
+}

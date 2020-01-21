@@ -1,0 +1,11 @@
+// Description:
+//    test de programme incorrect syntaxiquement
+//
+// Resultats:
+//    ligne 10 : Erreur (; en trop après le crochet)
+
+{
+    if (true) {
+        
+    };
+}

@@ -1,0 +1,9 @@
+// Description:
+//    Affectation et typage
+//
+// Resultats:
+//    Ligne 11: void type invalide
+
+{
+    void v;
+}

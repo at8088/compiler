@@ -1,0 +1,12 @@
+// Description:
+//   cast d'un int en float
+//
+// Résultat :
+// 12.5
+
+{
+    float t2 = 12.5;
+    int t1;
+    t1 = (float)(t2);
+    print(t1);
+}

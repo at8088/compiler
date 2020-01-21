@@ -1,0 +1,197 @@
+// Grenoble INP - Ensimag projet GL -*- mode: java -*-
+// Library for class Math of Deca, coded in Deca
+
+class Math {
+
+    // declaration de PI
+    float PI = 3.141592653589793  // à compléter
+
+    // declaration de float Max
+    float MAX_VALUE = 3.4028235*pow(10, 38);
+    // declaration de float Min
+    float MIN_VALUE = 1.4*pow(10, -45);
+
+    //fonction puissance
+    _float pow(float a, float e){
+        float p = a;
+        if (e == 0){
+            return 1;
+            }
+        for (float i = 2 ; i <= (e); i++){
+            p = p*a;
+            }
+        if (e > 0){
+            return p;   
+            }
+        return 1/p;
+
+    //fonction log2
+    _float getExponent(float f){
+        float p = f;
+        float exp = 0;
+        while (p > 1){
+            exp += 1;
+            p = p/2;
+           }
+        return exp;
+
+        
+
+
+    float ulp(float f){
+        float ulp1 = (float) (1.1920929*0.0000001); //erreur machine
+         // declaration de float Max, a voir s'il ne faut pas le changer par 2**32
+        float MAX_VALUE = 3.4028235*pow(10, 38);
+        // declaration de float Min
+        float MIN_VALUE = 1.4*pow(10, -45);
+        
+        //trouver une valeur de NEGATIVE/+ INFINITY s'il n'y en a pas en deca
+        if (f == Float.NEGATIVE_INFINITY || f == Float.POSITIVE_INFINITY){
+            return Float.POSITIVE_INFINITY;
+        }
+        if (f >= MAX_VALUE || f <= - MAX_VALUE){
+            return (float)pow(2, 104); //pb ? pareil voir s'il faut pas changer en 2**32
+        }
+        if (f == 0) {
+            return MIN_VALUE;
+        }
+        float e = Math.getExponent(f);
+        return (float) (ulp1*pow(2,e));
+    }
+
+        
+
+
+    
+    float sin(float f) 
+        f = f%(2*PI)-PI;
+
+        float signe = 1.0; // signe du résultat
+
+        // tester la valeur
+        if ( f>-PI || f<-PI/2 )  {
+            f = PI-f;        
+        }
+        if ( f>PI/2 || f<PI )  {
+            f = PI-f;
+            signe = -1.0;
+        }
+
+        // la calculer avec la methode de horner
+        // utilisation de FMA avec la methode asm dans laquelle on ecrit direct
+        // en l'assembleur
+
+        // premiere version avec un DL en n=5
+        res = asm('LOAD -3(LB), R2;  le parametre f est placé dans la pile à 
+                   LOAD -3(LB), R3;     l'adresse -3(LB) ?
+                   LOAD #0.0, R1;
+                   FMA #0.008333333, R2; 1/5!*R2+R1
+                   LOAD #0.0, R1;
+                   FMA R3, R2;
+                   LOAD #-0.166666667, R1;   1/3!
+                   FMA R3, R2; R2*f+R = R2*f+1/3!
+                   LOAD #0.0, R1;
+                   FMA R3, R2;
+                   LOAD #1.0, R1;
+                   FMA R3, R2;
+                   LOAD #0.0, R1;
+                   FMA R3, R2;
+                   
+
+        return signe*res;
+    }
+
+    float cos(float f) {
+        f = f%(2*PI)-PI;
+
+        float signe = 1.0; // signe du résultat
+
+        // tester la valeur
+        if ( f>-PI || f<-PI/2 )  {
+            f = f+PI;   
+            signe = -1.0
+        }
+        if ( f>PI/2 || f<PI )  {
+            f = PI-f;
+            signe = -1.0;
+        }
+        // premiere version avec un DL en n=6
+        res = asm('LOAD -3(LB), R2;  le parametre f est placé dans la pile à 
+                   LOAD -3(LB), R3;     l'adresse -3(LB) ?
+                   LOAD #0.0, R1;
+                   FMA #-0.001388889, R2; 1/6!*R2+R1
+                   LOAD #0.0, R1;
+                   FMA R3, R2;
+                   LOAD #0.041666667, R1;   1/4!
+                   FMA R3, R2; R2*f+R = R2*f+1/4!
+                   LOAD #0.0, R1;
+                   FMA R3, R2;
+                   LOAD #-0.5, R1; 1/2!
+                   FMA R3, R2;
+                   LOAD #0.0, R1;
+                   FMA R3, R2;
+                   LOAD #1.0, R1;
+                   FMA R3, R2;
+                   ');
+        return res*signe;
+    }
+
+    float asin(float f) {
+        // tester la valeur
+        if ((f<-1)||(f>1)) {
+            // erreur : arret de l'execution du programme
+            // TO DO
+            println("ERREUR : le paramètre doir etre compris dans [-1;1]");
+            // on peut utiliser ERROR en assembleur ?
+            asm('ERROR');
+        }
+        else    {
+            // premiere version avec un DL en n=5
+            res = asm('LOAD -3(LB), R2;  le parametre f est placé dans la pile à 
+                       LOAD -3(LB), R3;     l'adresse -3(LB) ?
+                       LOAD #0.0, R1;
+                       FMA #0.075, R2; 1*3/(2*4*5)*R2+R1
+                       LOAD #0.0, R1;
+                       FMA R3, R2;
+                       LOAD #0.166666667, R1;   1/6
+                       FMA R3, R2; R2*f+R = R2*f+1/6
+                       LOAD #0.0, R1;
+                       FMA R3, R2;
+                       LOAD #1.0, R1;
+                       FMA R3, R2;
+                       LOAD #0.0, R1;
+                       FMA R3, R2;
+                       ');
+        return res;    
+        }
+
+    }
+
+    float atan(float f) {
+        // premiere version avec un DL en n=5
+        res = asm('LOAD -3(LB), R2;  le parametre f est placé dans la pile
+                   LOAD -3(LB), R3;     
+                   LOAD #0.0, R1;
+                   FMA #0.2, R2; 1/5*R2+R1
+                   LOAD #0.0, R1;
+                   FMA R3, R2;
+                   LOAD #-0.333333333, R1;   1/3
+                   FMA R3, R2; R2*f+R = R2*f+1/3
+                   LOAD #0.0, R1;
+                   FMA R3, R2;
+                   LOAD #1.0, R1;
+                   FMA R3, R2;
+                   LOAD #0.0, R1;
+                   FMA R3, R2;
+                   ');
+        return res;
+    }
+
+    float ulp(float f) {
+        println("ulp(f) not yet implemented");
+    }
+
+}
+
+
+// End of Deca Math library

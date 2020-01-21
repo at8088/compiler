@@ -1,0 +1,9 @@
+// Description:
+//   test d'argument de print
+//
+//RESULT:coucou_toi
+
+{
+    print("coucou");
+    print("_toi");
+}

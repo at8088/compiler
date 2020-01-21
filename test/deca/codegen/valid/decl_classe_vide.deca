@@ -1,0 +1,7 @@
+// déclaration d'une classe vide
+//RESULT:ok
+
+class A{}
+{
+    println("ok");
+}

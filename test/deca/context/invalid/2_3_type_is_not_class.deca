@@ -1,0 +1,11 @@
+// Description:
+//   le type n'est pas defini
+//
+// Résultat :
+// Ligne 10
+
+class A {}
+
+{
+    AA a = null;
+}

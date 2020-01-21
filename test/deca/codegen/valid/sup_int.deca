@@ -1,0 +1,18 @@
+// Description:
+//  comparaison > entre deux int
+//
+//RESULT:ok
+
+{
+    int a = 5;
+    int b = 4;
+
+    if (a > b) {
+        print("ok");
+    }
+    else  {
+      print("error");
+    }
+
+
+}

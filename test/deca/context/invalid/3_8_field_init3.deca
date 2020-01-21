@@ -1,0 +1,9 @@
+// Description:
+//    field intialization false
+//
+// Resultats:
+//    Ligne 8
+
+class A {
+   int a =2.1;
+}

@@ -1,0 +1,8 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	WSTR "Hello World"
+	WNL
+; End of main instructions.
+	HALT
+; end main program

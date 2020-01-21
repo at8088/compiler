@@ -1,0 +1,14 @@
+// Description:
+//   test de la structure du if else
+//
+//RESULT:true
+
+{
+    if (true) {
+        print("true");
+    }
+    else  {
+        print("false");
+    }
+
+}

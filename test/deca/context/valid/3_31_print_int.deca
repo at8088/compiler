@@ -1,0 +1,11 @@
+// Description:
+//   test d'argument de print
+// 
+// Résultat : 
+// Affiche 12
+
+{
+    int a = 12;
+    print(a);
+
+}

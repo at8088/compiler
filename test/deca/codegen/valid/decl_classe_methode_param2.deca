@@ -1,0 +1,16 @@
+//déclaration d'une classe qui contient des méthodes prenant 5 et 10 paramètres
+// RESULT:ok
+
+class A {
+    void methode1(int a,int b,float c,boolean d,float e){
+        return 1;
+    }
+    int methode2(boolean a , boolean b , float c , float d , int e,
+                    int f , float g , boolean h , int i , int j){
+        return 0;
+    }
+}
+
+{
+    println("ok");
+}

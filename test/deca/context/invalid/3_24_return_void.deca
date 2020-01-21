@@ -1,0 +1,11 @@
+// Description:
+//    Fonction ayant un return null
+//
+// Resultats:
+//    Ligne 9: la fonction n'a pas de return.
+
+{
+    int renv(){
+        int i = 2;
+        }
+}

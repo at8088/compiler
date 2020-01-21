@@ -1,0 +1,14 @@
+// Description:
+//   print une classe
+//
+// Résultat :
+// Affiche un string
+
+class A {
+    int a;
+}
+
+{
+    A classA;
+    print(classA);
+}

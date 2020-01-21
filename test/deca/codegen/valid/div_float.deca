@@ -1,0 +1,14 @@
+// Description:
+//   division d'un float par un float
+//
+//
+//RESULT:1.48000e+01
+
+{
+    float x = 7.4;
+    float y = 0.5;
+
+    y = x / y;
+    print(y);
+
+}

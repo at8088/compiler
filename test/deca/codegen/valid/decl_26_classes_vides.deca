@@ -1,0 +1,32 @@
+//RESULT:ok
+
+class aA {}
+class aB {}
+class aC {}
+class aD {}
+class aE {}
+class aF {}
+class aG {}
+class aH {}
+class aI {}
+class aJ {}
+class aK {}
+class aL {}
+class aM {}
+class aN {}
+class aO {}
+class aP {}
+class aQ {}
+class aR {}
+class aS {}
+class aT {}
+class aU {}
+class aV {}
+class aW {}
+class aX {}
+class aY {}
+class aZ {}
+
+{
+    println("ok");
+}

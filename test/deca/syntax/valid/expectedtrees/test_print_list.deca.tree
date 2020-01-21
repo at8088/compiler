@@ -1,0 +1,10 @@
+`> [1, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [1, 0] Main
+      +> ListDeclVar [List with 0 elements]
+      `> ListInst [List with 1 elements]
+         []> [2, 12] Println
+             `> [2, 12] ListExpr [List with 3 elements]
+                []> [4, 6] StringLiteral (string expression)
+                []> [2, 32] Float (123.45)
+                []> [2, 40] Int (666)

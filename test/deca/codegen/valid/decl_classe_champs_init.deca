@@ -1,0 +1,10 @@
+//déclaration d'une classe à 2 champs initialisés
+//RESULT:ok
+
+class A {
+    int x = 4;
+    float y = 4.0;
+}
+{
+    println("ok");
+}

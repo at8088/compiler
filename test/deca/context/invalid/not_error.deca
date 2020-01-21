@@ -1,0 +1,9 @@
+// Description:
+//   not int
+//
+// Résultat :
+// mauvaise syntaxe
+
+{
+    boolean b = !4;
+}

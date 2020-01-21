@@ -1,0 +1,9 @@
+{
+    int z;
+    int x = 2;
+    boolean vrai = true;
+    float f = 3.45;    
+    float fh = 0xa.beefp+8;        
+    float fhf = 0xa.45efp+2f; 
+    float ff = 3.45f;
+}

@@ -1,0 +1,17 @@
+// Description:
+//  comparaison || entre deux boolean
+//
+//RESULT:ok
+
+{
+    boolean a = false;
+    boolean b = false;
+
+    if (a || b) {
+        print("error");
+    }
+    else  {
+      print("ok");
+    }
+
+}

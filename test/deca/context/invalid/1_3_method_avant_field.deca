@@ -1,0 +1,11 @@
+// Description:
+//   definition des methodes avant les fields
+//
+// Resultats:
+//    Ligne 10
+
+class A {
+    void rien() {
+    }
+    int a;
+}

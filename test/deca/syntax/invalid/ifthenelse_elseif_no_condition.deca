@@ -1,0 +1,13 @@
+// Description:
+//    test de programme incorrect syntaxiquement
+//
+// Resultats:
+//    ligne 10 : Erreur (manque condition du else if)
+
+{
+    if (true) {
+    
+    } else if {
+
+    }
+}

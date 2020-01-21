@@ -1,0 +1,23 @@
+//RESULT:15000
+
+{
+    int x = 10;
+    while(x < 10000){
+        while(x < 1000){
+            while (x<500){
+                while (x<250){
+                    while (x<100){
+                        x=x+7;
+                    }
+                    x=x+1;
+                }
+                x=x*5;
+            }
+            x =x*3;
+        }
+        x = x * 2;
+    }
+
+    println(x);
+
+}

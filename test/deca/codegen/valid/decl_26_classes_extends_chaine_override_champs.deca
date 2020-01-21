@@ -1,0 +1,32 @@
+//RESULT:ok
+
+class aA  {int x=0;}
+class aB extends aA{int x = 1;}
+class aC extends aB{int x = 2;}
+class aD extends aC{int x = 3;}
+class aE extends aD{int x = 4;}
+class aF extends aE{int x = 5;}
+class aG extends aF{int x = 6;}
+class aH extends aG{int x = 7;}
+class aI extends aH{int x = 8;}
+class aJ extends aI{int x = 9;}
+class aK extends aJ{int x = 10;}
+class aL extends aK{int x = 11;}
+class aM extends aL{int x = 12;}
+class aN extends aM{int x = 13;}
+class aO extends aN{int x = 14;}
+class aP extends aO{int x = 15;}
+class aQ extends aP{int x = 16;}
+class aR extends aQ{int x = 17;}
+class aS extends aR{int x = 18;}
+class aT extends aS{int x = 19;}
+class aU extends aT{int x = 20;}
+class aV extends aU{int x = 21;}
+class aW extends aV{int x = 22;}
+class aX extends aW{int x = 23;}
+class aY extends aX{int x = 24;}
+class aZ extends aY{int x = 25;}
+
+{
+    println("ok");
+}

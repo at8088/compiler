@@ -1,0 +1,9 @@
+//RESULT:ok
+
+class A{}
+class B{}
+class C{}
+
+{
+    println("ok");
+}

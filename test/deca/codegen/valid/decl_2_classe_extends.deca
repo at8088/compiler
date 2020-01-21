@@ -1,0 +1,8 @@
+//RESULT:ok
+
+class A {}
+class B extends A {}
+
+{
+    println("ok");
+}

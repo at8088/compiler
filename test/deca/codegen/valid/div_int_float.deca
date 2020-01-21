@@ -1,0 +1,12 @@
+// Description:
+//   division d'un int par un float 
+// 
+//RESULT:4.00000e+00
+
+{
+    int x = 6;
+    float f = 1.5;
+    // x doit être converti en float 
+    f = x / f;
+    print(f);
+}

@@ -1,0 +1,12 @@
+{
+    boolean a = 4.6 < 5.7, b = true, c = (3 == 2);
+    boolean d = a && c, e = b || c, f = !d;
+
+    // a == true
+    // b == true
+    // c == false
+    // d ==  false
+    // e == true
+    // f == true
+
+}

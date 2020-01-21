@@ -1,0 +1,12 @@
+// Description:
+//   test du while
+//
+//RESULT:11
+
+{
+    int i = 0;
+    while (i < 11) {
+        i = i+1;
+    }
+    println(i);
+}

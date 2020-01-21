@@ -1,0 +1,8 @@
+// RESULT:ok
+
+class A{}
+
+{
+    A a = new A();
+    println("ok");
+}

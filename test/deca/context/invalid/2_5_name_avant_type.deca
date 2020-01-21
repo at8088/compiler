@@ -1,0 +1,9 @@
+// Description:
+//    nom du field avant son type
+//
+// Resultats:
+//    Ligne 8
+
+class A {
+  a int;
+}

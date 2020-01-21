@@ -1,0 +1,13 @@
+// Description:
+//   division d'un int par un float
+//
+// Résultat :
+//RESULT:Erreur : Débordement arithmétique
+
+{
+    int x = 6;
+    int f = 0;
+
+    f = x / f;
+    print(f);
+}

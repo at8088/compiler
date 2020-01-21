@@ -1,0 +1,12 @@
+// déclaration d'une classe à 2 champs et 2 méthodes sans paramètres
+//RESULT:ok
+
+class A{
+    int x ;
+    float y = 2.0;
+    void methode1(){}
+    int method2(){}
+}
+{
+    println("ok");
+}

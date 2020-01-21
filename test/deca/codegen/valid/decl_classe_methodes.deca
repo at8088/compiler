@@ -1,0 +1,9 @@
+//déclaration d'une classe qui contient qu'une méthode vide
+//RESULT:ok
+
+class A {
+    void methode(){}
+}
+{
+    println("ok");
+}

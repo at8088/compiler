@@ -1,0 +1,8 @@
+// Description:
+//   test d'argument de println
+//
+//RESULT:12
+
+{
+    println(12);
+}

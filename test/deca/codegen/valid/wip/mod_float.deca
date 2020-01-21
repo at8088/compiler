@@ -1,0 +1,11 @@
+// Description:
+//   modulo de 2 float
+//
+//RESULT:0.70000e+00
+
+{
+    float x = 6.2;
+    float y = 1.1;
+    y = x%y;
+    print(y);
+}

@@ -1,0 +1,12 @@
+// Description:
+//   transtypage d'un type void
+// 
+// Résultat : 
+// Ligne 11 : cast de types incompatibles
+
+{
+    void t1;
+    int t2 = 14;
+    t1 = (int)(t2);
+
+}

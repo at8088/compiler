@@ -1,0 +1,5 @@
+class A {
+    void printHelloWorld() {
+        print("Hello World !");
+    }
+}

@@ -1,0 +1,11 @@
+// Description:
+//   test d'argument de print
+// 
+// Résultat : 
+// Affiche 1.23000e+01
+
+{
+    float a = 12.3;
+    print(a);
+
+}

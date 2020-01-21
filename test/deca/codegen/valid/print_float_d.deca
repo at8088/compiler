@@ -1,0 +1,9 @@
+// Description:
+//   test d'argument de print
+//
+//RESULT:1.23000e+01
+
+{
+    float a = 12.3;
+    print(a);
+}

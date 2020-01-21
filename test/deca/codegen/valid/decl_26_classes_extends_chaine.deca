@@ -1,0 +1,31 @@
+//RESULT:ok
+
+class aA {}
+class aB extends aA{}
+class aC extends aB{}
+class aD extends aC{}
+class aE extends aD{}
+class aF extends aE{}
+class aG extends aF{}
+class aH extends aG{}
+class aI extends aH{}
+class aJ extends aI{}
+class aK extends aJ{}
+class aL extends aK{}
+class aM extends aL{}
+class aN extends aM{}
+class aO extends aN{}
+class aP extends aO{}
+class aQ extends aP{}
+class aR extends aQ{}
+class aS extends aR{}
+class aT extends aS{}
+class aU extends aT{}
+class aV extends aU{}
+class aW extends aV{}
+class aX extends aW{}
+class aY extends aX{}
+class aZ extends aY{}
+{
+    println("ok");
+}

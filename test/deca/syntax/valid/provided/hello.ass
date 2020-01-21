@@ -1,0 +1,16 @@
+	TSTO #0
+	BOV pile_pleine
+	ADDSP #0
+; start main program
+; Main program
+; Variable declarations and initializations:
+; Beginning of main instructions:
+	WSTR "Hello"
+	WNL
+; End of main instructions.
+	HALT
+; traitant de l'erreur de débordement de la pile
+pile_pleine:
+	WSTR "Erreur : Pile pleine."
+	ERROR
+; end main program

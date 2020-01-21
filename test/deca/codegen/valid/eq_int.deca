@@ -1,0 +1,18 @@
+// Description:
+//  egalité entre deux int
+//
+//RESULT:ok
+
+{
+    int a = 1;
+    int b = 2-1;
+
+    if (a == b) {
+        print("ok");
+    }
+    else  {
+      print("error");
+    }
+
+
+}

@@ -1,0 +1,12 @@
+// Description:
+//   addition int float
+//
+// Résultat :
+// Ligne 11 : cast de types incompatibles
+
+{
+    int x;
+    float f = 4.2f;
+    /* x attend un entier */
+    x = f + 1;
+}

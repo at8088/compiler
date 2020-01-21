@@ -1,0 +1,59 @@
+//RESULT:ok
+
+class A {
+    int aa;
+    int ab;
+    int ac;
+    int ad;
+    int ae;
+    int af;
+    int ag;
+    int ah;
+    int ai;
+    int aj;
+    int ak;
+    int al;
+    int am;
+    int an;
+    int ao;
+    int ap;
+    int aq;
+    int ar;
+    int as;
+    int at;
+    int au;
+    int av;
+    int aw;
+    int ax;
+    int ay;
+    int az;
+    float a(int a){}
+    float b(int a){}
+    float c(int a){}
+    float d(int a){}
+    float e(int a){}
+    float f(int a){}
+    float g(int a){}
+    float h(int a){}
+    float i(int a){}
+    float j(int a){}
+    float k(int a){}
+    float l(int a){}
+    float m(int a){}
+    float n(int a){}
+    float o(int a){}
+    float p(int a){}
+    float q(int a){}
+    float r(int a){}
+    float s(int a){}
+    float t(int a){}
+    float u(int a){}
+    float v(int a){}
+    float w(int a){}
+    float x(int a){}
+    float y(int a){}
+    float z(int a){}
+}
+{
+    println("ok");
+}

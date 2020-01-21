@@ -1,0 +1,11 @@
+// Description:
+//    parametre sans type
+//
+// Resultats:
+//    Ligne 8
+
+class A {
+   void truc(int a, b)  {
+
+   }
+}

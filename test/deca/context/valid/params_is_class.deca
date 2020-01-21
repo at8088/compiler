@@ -1,0 +1,15 @@
+// On test si une classe nouvellement déclaré peut etre passé en parametre d'une
+// méthode
+
+class Parent {
+    int age;
+    float taille = 1.8f;
+}
+
+class Enfant {
+    Parent parent;
+
+    void setParent(Parent parent) {
+
+    }
+}

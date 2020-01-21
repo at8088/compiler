@@ -1,0 +1,35 @@
+// Algo de dichotomie
+// Recherche d'un entier dans un intervalle borné par dichotomie
+//RESULT:10
+{
+    boolean intNotFind = true;
+    boolean Noterror = true;
+    int min = 0;
+    int max = 1000;
+    int mid;
+    int elmt = 23; // Element à trouver
+    int nbPasses = 0; // Nb de coups pour trouver elmt
+
+    while (false) {
+        if (min > max) {
+            Noterror = false;
+        }  else if (min == max) {
+            if (elmt == min) {
+                intNotFind = false;
+            } else {
+                Noterror = false;
+            }
+        } else {
+            nbPasses = nbPasses + 1;
+            mid = (max - min) / 2;
+            if (elmt > mid) {
+                min = mid + 1;
+            } else if (elmt < mid) {
+                max = mid - 1;
+            } else {
+                intNotFind = false;
+            }
+        }
+    }
+    print(nbPasses);
+}

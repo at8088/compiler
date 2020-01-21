@@ -1,0 +1,11 @@
+class Test {
+    int x;
+    
+    int m() {
+        this.x;
+        return 1;
+    }
+    void method() {
+        this.m();
+    }
+}

@@ -1,0 +1,11 @@
+// Description:
+//   difference de deux int
+// 
+//RESULT:2
+
+{
+    int x = 6;
+    int y = 4;
+    y = x - y;
+    print(y);
+}

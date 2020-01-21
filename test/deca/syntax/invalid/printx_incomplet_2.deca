@@ -1,0 +1,9 @@
+// Description:
+//    test de programme incorrect syntaxiquement
+//
+// Resultats:
+//    ligne 8 : Erreur (manque ;)
+
+{
+    printx(0xabcd)
+}

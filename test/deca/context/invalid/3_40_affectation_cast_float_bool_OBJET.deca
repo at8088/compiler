@@ -1,0 +1,12 @@
+// Description:
+//   cast de deux types incompatibles
+// 
+// Résultat : 
+//  Ligne 10 : conversion de deux types incompatibles
+
+{
+    boolean b = true;
+    float f;
+    f = (boolean)(b);
+
+}

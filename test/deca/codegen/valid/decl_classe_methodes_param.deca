@@ -1,0 +1,14 @@
+//déclaration d'une classe qui contient des méthodes prenant des 1 et 2 paramètres
+//RESULT:ok
+
+class A {
+    int methode1(int x){
+        return x;
+    }
+    float methode2(float x){
+        return x;
+    }
+}
+{
+    println("ok");
+}

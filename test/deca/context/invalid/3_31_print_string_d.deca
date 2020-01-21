@@ -1,0 +1,11 @@
+// Description:
+//   test d'argument de print
+// 
+// Résultat : 
+// Affiche un string
+
+{
+    string s = "coucou";
+    print(s);
+
+}

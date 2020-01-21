@@ -1,0 +1,11 @@
+// Description:
+//   modulo d'un float par un int
+//
+//RESULT:0.20000e+00
+
+{
+    float x = 6.2;
+    int y = 1;
+    y = x%y;
+    print(y);
+}

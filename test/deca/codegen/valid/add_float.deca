@@ -1,0 +1,14 @@
+// Description:
+//   addition de deux float
+//   
+// 
+//RESULT:6.20000e+00
+
+{
+    float x = 1.12;
+    float y = 5.08;
+
+    y = x + y;
+    print(y);
+
+}

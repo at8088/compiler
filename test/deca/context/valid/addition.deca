@@ -1,0 +1,6 @@
+{
+    int x = 1;
+    float f;
+    /* x doit être convertis en float */
+    f = x + 4.5f;
+}

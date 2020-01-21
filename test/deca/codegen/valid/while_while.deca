@@ -1,0 +1,12 @@
+//RESULT:1080
+
+{
+    int x = 10;
+    while(x < 1000){
+        while(x < 100){
+            x =x*3;
+        }
+        x = x * 2;
+    }
+    println(x);
+}

@@ -1,0 +1,7 @@
+// Description:
+//   super classe non définie
+//
+// Résultat :
+// Ligne 7
+
+class A extends B {}

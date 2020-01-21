@@ -1,0 +1,4 @@
+{
+    x = readInt();
+    y = readFloat();
+}

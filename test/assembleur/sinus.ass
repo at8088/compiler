@@ -1,0 +1,23 @@
+; sinus de 0.5
+
+LOAD #0.1, R2 ; contient le res
+LOAD #0.1, R3 ; contient le f
+LOAD #0.0, R1 ;
+LOAD #1.0, R4
+DIV #120.0, R4 ; 1/5!=1/120
+FMA R4, R2; 1/5!*R2+R1
+LOAD #0.0, R1;
+FMA R3, R2;
+LOAD #1.0, R1
+DIV #6.0, R1 ; 1/3!
+;LOAD #-0.166666667, R1;   1/3!
+FMA R3, R2; R2*f+R = R2*f+1/3!
+LOAD #0.0, R1;
+FMA R3, R2;
+LOAD #1.0, R1;
+FMA R3, R2;
+LOAD #0.0, R1;
+FMA R3, R2;
+LOAD R2, R1
+WFLOAT
+HALT

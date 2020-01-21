@@ -1,0 +1,9 @@
+// Description:
+//    field intialization false
+//
+// Resultats:
+//    Ligne
+
+class A {
+   int a =;
+}

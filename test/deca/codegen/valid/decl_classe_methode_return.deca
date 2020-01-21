@@ -1,0 +1,15 @@
+// déclaration d'une classe qui contient des méthodes retournant des valeurs
+//RESULT:ok
+
+class B{
+    int methode1(){
+        return 1;
+    }
+    float methode2(){
+        return 4.0;
+    }
+}
+{
+    println("ok");
+}
+

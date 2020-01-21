@@ -1,0 +1,59 @@
+//RESULT:ok
+
+class A {
+    int a(){}
+    int b(){}
+    int c(){}
+    int d(){}
+    int e(){}
+    int f(){}
+    int g(){}
+    int h(){}
+    int i(){}
+    int j(){}
+    int k(){}
+    int l(){}
+    int m(){}
+    int n(){}
+    int o(){}
+    int p(){}
+    int q(){}
+    int r(){}
+    int s(){}
+    int t(){}
+    int u(){}
+    int v(){}
+    int w(){}
+    int x(){}
+    int y(){}
+    int z(){}
+    int xa(){}
+    int xb(){}
+    int xc(){}
+    int xd(){}
+    int xe(){}
+    int xf(){}
+    int xg(){}
+    int xh(){}
+    int xi(){}
+    int xj(){}
+    int xk(){}
+    int xl(){}
+    int xm(){}
+    int xn(){}
+    int xo(){}
+    int xp(){}
+    int xq(){}
+    int xr(){}
+    int xs(){}
+    int xt(){}
+    int xu(){}
+    int xv(){}
+    int xw(){}
+    int xx(){}
+    int xy(){}
+    int xz(){}
+}
+{
+    println("ok");
+}

@@ -1,0 +1,11 @@
+// Description:
+//    test de programme incorrect syntaxiquement
+//
+// Resultats:
+//    ligne 8 : Erreur (on ne peut pas utiliser un else tout seul)
+
+{
+    else {
+    
+    }
+}

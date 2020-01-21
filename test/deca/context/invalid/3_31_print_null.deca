@@ -1,0 +1,9 @@
+// Description:
+//   test d'argument de print
+// 
+// Résultat : 
+// Ligne 8 : Print d'un type incompatible
+//RESULT:
+{
+    print(null);
+}

@@ -1,0 +1,6 @@
+	LOAD #3 , R2
+	LOAD R2 , R1
+	BLT label
+	WINT
+label:
+	HALT

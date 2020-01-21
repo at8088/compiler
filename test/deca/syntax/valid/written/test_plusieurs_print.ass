@@ -1,0 +1,16 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	WSTR "print string"
+	WNL
+	WSTR "print int:"
+	LOAD #123, R1
+	WINT
+	WNL
+	WSTR "float :"
+	LOAD #0x1.6c51ecp5, R1
+	WFLOAT
+	WNL
+; End of main instructions.
+	HALT
+; end main program

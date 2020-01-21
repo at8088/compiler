@@ -1,0 +1,55 @@
+	TSTO #6
+	BOV pile_pleine
+	ADDSP #5
+; start main program
+; Construction des tables des méthodes
+; Code de la table des méthodes de Object
+	LOAD #null, R0
+	STORE R0, 1(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 2(GB)
+; Code de la table des méthodes de la classe A
+	LEA 1(GB), R0
+	STORE R0, 3(GB)
+; Main program
+; Variable declarations and initializations:
+	NEW #2, R2
+	BOV tas_plein
+	LEA 3(GB), R0
+	STORE R0, 0(R2)
+	PUSH R2
+	BSR init.A
+	POP R2
+	STORE R2, 1(GB)
+; Beginning of main instructions:
+	WSTR "ok"
+	WNL
+; End of main instructions.
+	HALT
+code.Object.equals:
+init.A:
+	LOAD -2(LB), R1
+	LOAD #1, R0
+	STORE R0, 0(R1)
+	RTS
+; traitant de l'erreur du débordement de la pile :
+pile_pleine:
+	WSTR "Erreur : Pile pleine."
+	ERROR
+; traitant de l'erreur du débordement arithmétique :
+debordement_arith:
+	WSTR "Erreur : Débordement arithmétique"
+	ERROR
+; traitant de l'erreur du déréférencement d'un pointeur null :
+dereferencement_null:
+	WSTR "Erreur : Déréférencement d'un pointeur null"
+	ERROR
+; traitant de l'erreur d'une entrée invalide
+entree_invalide:
+	WSTR "Erreur : Débordement arithmétique ou entrée invalide syntaxiquement."
+	ERROR
+; traitant de l'erreur du tas plein
+tas_plein:
+	WSTR "Erreur : Tas plein"
+	ERROR
+; end main program
